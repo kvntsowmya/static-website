@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+}
+
+.nav-container {
+    background-color: #ffffff;
+    min-width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: "Roboto";
+    color: grey;
+}
+
+.lesson-icon {
+    background-color: skyblue;
+    border-left: 3px solid blue;
+}
+
+.icon {
+    padding: 15px;
+    text-align: center;
+    height: 60px;
+}
+
+.bottom-container {
+    width: 90%;
+    border-top: 55px solid #ffffff;
+    margin-top: 5px;
+}
+
+.text-container {
+    display: flex;
+    color: grey;
+    font-weight: bold;
+    font-family: "Roboto";
+    padding: 20px;
+}
+
+.input {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    width: 80%;
+    padding-left: 10px;
+}
+
+.input-container {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.upload-container {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.upload {
+    background-color: #ffffff;
+    padding: 40px;
+    font-weight: bold;
+}
